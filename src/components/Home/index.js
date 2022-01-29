@@ -288,7 +288,7 @@ class Home extends Component {
       className="products-details-loader-container loader-container"
       testid="homeRouteLoader"
     >
-      <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
+      <Loader type="BallTriangle" color="#0b69ff" height="50" width="50" />
     </div>
   )
 

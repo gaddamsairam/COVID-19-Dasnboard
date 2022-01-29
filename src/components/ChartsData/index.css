@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 .charts {
   border-radius: 12px;
@@ -31,7 +30,7 @@
 }
 
 .charts-title {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -54,4 +53,11 @@
   .charts {
     width: 100%;
   }
+}
+
+.products-details-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

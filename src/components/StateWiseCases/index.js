@@ -161,12 +161,14 @@ const statesImagesList = [
   {
     stateCode: 'AN',
     stateName: 'Andaman and Nicobar Islands',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446550/Missing%20Covid19%20project%20images/Group_7362Andaman_and_Nicobar_Islands_s56znk.png',
   },
   {
     stateCode: 'AP',
     stateName: 'Andhra Pradesh',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446883/Missing%20Covid19%20project%20images/Group_7354Andhar_Pradesh_muagmf.png',
   },
   {
     stateCode: 'AR',
@@ -189,7 +191,8 @@ const statesImagesList = [
   {
     stateCode: 'CH',
     stateName: 'Chandigarh',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446555/Missing%20Covid19%20project%20images/Group_7361Chandigarh_ky25tw.png',
   },
   {
     stateCode: 'CT',
@@ -200,12 +203,14 @@ const statesImagesList = [
   {
     stateCode: 'DN',
     stateName: 'Dadra and Nagar Haveli and Daman and Diu',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446553/Missing%20Covid19%20project%20images/Group_7357Daman_and_Diu_Dadra_and_nagar_Haveli_jcvp97.png',
   },
   {
     stateCode: 'DL',
     stateName: 'Delhi',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446551/Missing%20Covid19%20project%20images/Group_7358Delhi_gwcss1.png',
   },
   {
     stateCode: 'GA',
@@ -258,17 +263,20 @@ const statesImagesList = [
   {
     stateCode: 'LA',
     stateName: 'Ladakh',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446552/Missing%20Covid19%20project%20images/Group_7363Ladakh_k52rn8.png',
   },
   {
     stateCode: 'LD',
     statename: 'Lakshadweep',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446552/Missing%20Covid19%20project%20images/Group_7359Lakshadweep_x9hmtu.png',
   },
   {
     stateCode: 'MH',
     statName: 'Maharashtra',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446883/Missing%20Covid19%20project%20images/Group_7350Maharasta_nvw5qk.png',
   },
   {
     stateCode: 'MP',
@@ -309,7 +317,8 @@ const statesImagesList = [
   {
     stateCode: 'PY',
     stateName: 'Puducherry',
-    ImageUrl: '',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643446552/Missing%20Covid19%20project%20images/Group_7360Puducherry_vwsjhe.png',
   },
   {
     stateCode: 'PB',

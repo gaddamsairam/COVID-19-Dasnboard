@@ -1,66 +1,75 @@
 import {Component} from 'react'
 import {Link} from 'react-router-dom'
 import {ImMenu2} from 'react-icons/im'
+
 import './index.css'
 
 class Header extends Component {
-  state = {showOptions: false}
+  state = {isToggleActive: false}
 
-  mobileView = () => {
-    const {showOptions} = this.state
-
-    return showOptions ? (
-      <div className="mobile-options-container">
-        <Link to="/" className="link-header">
-          <p className="options">Home</p>
-        </Link>
-        <hr />
-        <Link to="/about" className="link-header">
-          <p className="options">About</p>
-        </Link>
-        <hr />
-        <Link to="/vaccination" className="link-header">
-          <p className="options">Vaccination</p>
-        </Link>
-      </div>
-    ) : null
+  whenToggleButtonClick = () => {
+    this.setState(prevState => ({isToggleActive: !prevState.isToggleActive}))
   }
 
-  showMenu = () => {
-    this.setState(lastView => ({showOptions: !lastView.showOptions}))
-  }
+  showDropDownMenu = () => (
+    <>
+      <ul className="navBar">
+        <Link to="/" className="link">
+          <li className="item">Home</li>
+        </Link>
+        <Link to="/about" className="link">
+          <li className="item">About</li>
+        </Link>
+        <Link to="/vaccination" className="link">
+          <li className="item">Vaccination</li>
+        </Link>
+      </ul>
+    </>
+  )
 
   render() {
+    const {isToggleActive} = this.state
+    console.log(isToggleActive)
     return (
       <>
-        <nav className="nav-bar-container">
-          <Link to="/" className="link-header">
-            <h1 className="main-logo">
-              COVID19<span className="main-logo-span">INDIA</span>
+        <div className="header-container">
+          <Link to="/" className="link">
+            <h1 className="logo">
+              COVID19<spam className="india">INDIA</spam>
             </h1>
           </Link>
-          <ul className="options-list">
-            <Link to="/" className="link-header">
-              <li className="options">Home</li>
+          <ul className="navBar">
+            <Link to="/" className="link">
+              <li className="item">Home</li>
             </Link>
-            <Link to="/about" className="link-header">
-              <li className="options">About</li>
+            <Link to="/about" className="link">
+              <li className="item">About</li>
             </Link>
-            <Link to="/vaccination" className="link-header">
-              <li className="options">Vaccination</li>
+
+            <Link to="/vaccination" className="link">
+              <li className="item">Vaccination</li>
             </Link>
           </ul>
-          <div className="mobile-view-container">
+        </div>
+        <div className="mobile-menu">
+          <div className="mobile-header-container">
+            <Link to="/" className="link">
+              <h1 className="logo">
+                COVID19<spam className="india">INDIA</spam>
+              </h1>
+            </Link>
             <button
               type="button"
-              className="menu-button"
-              onClick={this.showMenu}
+              className="toggle-button"
+              onClick={this.whenToggleButtonClick}
             >
-              <ImMenu2 className="menu-icon" />
+              <ImMenu2 className="menuIcon" alt="menu" />
             </button>
           </div>
-        </nav>
-        <div>{this.mobileView()}</div>
+          <div className="menu">
+            {isToggleActive ? this.showDropDownMenu() : null}
+          </div>
+        </div>
       </>
     )
   }

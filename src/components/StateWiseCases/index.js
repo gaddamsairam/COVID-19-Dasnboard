@@ -439,19 +439,6 @@ class StateWiseCases extends Component {
     </>
   )
 
-  ShowImage = () => {
-    const {stateCode} = this.state
-
-    const singleImage = statesImagesList.find(
-      image => image.stateCode === stateCode,
-    )
-    console.log(singleImage)
-    const {ImageUrl, stateName} = singleImage
-    console.log(ImageUrl)
-    console.log(stateName)
-    return <img src={ImageUrl} alt={stateName} className="state-image" />
-  }
-
   getCategoryWiseData = () => {
     const {category, stateId, dataArray} = this.state
     const districtOutput = dataArray[stateId].districts
@@ -484,6 +471,19 @@ class StateWiseCases extends Component {
       return activeCases
     }
     return categoryData
+  }
+
+  ShowImage = () => {
+    const {stateCode} = this.state
+
+    const singleImage = statesImagesList.find(
+      image => image.stateCode === stateCode,
+    )
+    console.log(singleImage)
+    const {ImageUrl, stateName} = singleImage
+    console.log(ImageUrl)
+    console.log(stateName)
+    return <img src={ImageUrl} alt={stateName} className="state-image" />
   }
 
   renderStateView = () => {
@@ -522,6 +522,7 @@ class StateWiseCases extends Component {
             />
           </div>
         </div>
+
         <div className="image-state">{this.ShowImage()}</div>
 
         <div className="total-district-data-block">

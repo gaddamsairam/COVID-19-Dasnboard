@@ -157,6 +157,216 @@ const statesList = [
   },
 ]
 
+const statesImagesList = [
+  {
+    stateCode: 'AN',
+    stateName: 'Andaman and Nicobar Islands',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'AP',
+    stateName: 'Andhra Pradesh',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'AR',
+    stateName: 'Arunachal Pradesh',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432393/covid19%20project%20states%20images/Group_7340Arunachal_Pradesh_yzwrrc.png',
+  },
+  {
+    stateCode: 'AS',
+    stateName: 'Assam',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432393/covid19%20project%20states%20images/Group_7341Assam_glxxbo.png',
+  },
+  {
+    stateCode: 'BR',
+    stateName: 'Bihar',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432403/covid19%20project%20states%20images/Group_7335Bihar_xtxgjw.png',
+  },
+  {
+    stateCode: 'CH',
+    stateName: 'Chandigarh',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'CT',
+    stateName: 'Chhattisgarh',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432398/covid19%20project%20states%20images/Group_7353Chhattisgarh_bq9i6k.png',
+  },
+  {
+    stateCode: 'DN',
+    stateName: 'Dadra and Nagar Haveli and Daman and Diu',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'DL',
+    stateName: 'Delhi',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'GA',
+    stateName: 'Goa',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432392/covid19%20project%20states%20images/Group_7349Goa_gywtvw.png',
+  },
+  {
+    stateCode: 'GJ',
+    stateName: 'Gujarat',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432405/covid19%20project%20states%20images/Group_7337Gujarat_rl6xp3.png',
+  },
+  {
+    stateCode: 'HR',
+    stateName: 'Haryana',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432405/covid19%20project%20states%20images/Group_7332Haryana_a09ysf.png',
+  },
+  {
+    stateCode: 'HP',
+    stateName: 'Himachal Pradesh',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432400/covid19%20project%20states%20images/Group_7364Himachal_Pradesh_ih9kb3.png',
+  },
+  {
+    stateCode: 'JK',
+    stateName: 'Jammu and Kashmir',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432401/covid19%20project%20states%20images/Group_7328Jammu_and_kashmir_z3rq8z.png',
+  },
+  {
+    stateCode: 'JH',
+    stateName: 'Jharkhand',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432404/covid19%20project%20states%20images/Group_7342Jharkhand_rhuujy.png',
+  },
+  {
+    stateCode: 'KA',
+    stateName: 'Karnataka',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432399/covid19%20project%20states%20images/Group_7339Karnataka_oo0hh1.png',
+  },
+  {
+    stateCode: 'KL',
+    stateName: 'Kerala',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432400/covid19%20project%20states%20images/Group_7355Karala_skturl.png',
+  },
+  {
+    stateCode: 'LA',
+    stateName: 'Ladakh',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'LD',
+    statename: 'Lakshadweep',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'MH',
+    statName: 'Maharashtra',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'MP',
+    stateName: 'Madhya Pradesh',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432404/covid19%20project%20states%20images/Group_7336Madhya_Pradesh_ny8f9q.png',
+  },
+  {
+    stateCode: 'MN',
+    stateName: 'Manipur',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432400/covid19%20project%20states%20images/Group_7346Manipur_gp3uxd.png',
+  },
+  {
+    stateCode: 'ML',
+    stateName: 'Meghalaya',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432398/covid19%20project%20states%20images/Group_7344Meghalava_xsqbz0.png',
+  },
+  {
+    stateCode: 'MZ',
+    stateName: 'Mizoram',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432394/covid19%20project%20states%20images/Group_7347Mizeram_jrkva9.png',
+  },
+  {
+    stateCode: 'NL',
+    stateName: 'Nagaland',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432395/covid19%20project%20states%20images/Group_7345Nagaland_pctnth.png',
+  },
+  {
+    stateCode: 'OR',
+    stateName: 'Odisha',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432413/covid19%20project%20states%20images/Group_7348Orissa_qiycdk.png',
+  },
+  {
+    stateCode: 'PY',
+    stateName: 'Puducherry',
+    ImageUrl: '',
+  },
+  {
+    stateCode: 'PB',
+    stateName: 'Punjab',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432402/covid19%20project%20states%20images/Group_7330Punjab_hyuxkt.png',
+  },
+  {
+    stateCode: 'RJ',
+    stateName: 'Rajasthan',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432402/covid19%20project%20states%20images/Group_7333Rajasthan_bfossl.png',
+  },
+  {
+    stateCode: 'SK',
+    stateName: 'Sikkim',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432406/covid19%20project%20states%20images/Group_7338Sikkim_omauqq.png',
+  },
+  {
+    stateCode: 'TN',
+    stateName: 'Tamil Nadu',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432401/covid19%20project%20states%20images/Group_7356Tamil_Nadu_lsdjdi.png',
+  },
+  {
+    stateCode: 'TG',
+    stateName: 'Telangana',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432399/covid19%20project%20states%20images/Group_7351Telangena_vabwir.png',
+  },
+  {
+    stateCode: 'TR',
+    stateName: 'Tripura',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432398/covid19%20project%20states%20images/Group_7352Tripura_mzkal9.png',
+  },
+  {
+    stateCode: 'UP',
+    stateName: 'Uttar Pradesh',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432403/covid19%20project%20states%20images/Group_7334Uttar_Pradesh_bd7asp.png',
+  },
+  {
+    stateCode: 'UT',
+    stateName: 'Uttarakhand',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432404/covid19%20project%20states%20images/Group_7342Jharkhand_rhuujy.png',
+  },
+  {
+    stateCode: 'WB',
+    stateName: 'West Bengal',
+    ImageUrl:
+      'https://res.cloudinary.com/ddzm2v7i3/image/upload/v1643432407/covid19%20project%20states%20images/Group_7343West_Bengal_jlkc8i.png',
+  },
+]
+
 class StateWiseCases extends Component {
   state = {
     isLoading: true,
@@ -219,6 +429,19 @@ class StateWiseCases extends Component {
       </div>
     </>
   )
+
+  ShowImage = () => {
+    const {stateCode} = this.state
+
+    const singleImage = statesImagesList.find(
+      image => image.stateCode === stateCode,
+    )
+    console.log(singleImage)
+    const {ImageUrl, stateName} = singleImage
+    console.log(ImageUrl)
+    console.log(stateName)
+    return <img src={ImageUrl} alt={stateName} className="state-image" />
+  }
 
   getCategoryWiseData = () => {
     const {category, stateId, dataArray} = this.state
@@ -290,6 +513,7 @@ class StateWiseCases extends Component {
             />
           </div>
         </div>
+        <div className="image-state">{this.ShowImage()}</div>
 
         <div className="total-district-data-block">
           <h1 className={`district-heading ${category}-color`}>

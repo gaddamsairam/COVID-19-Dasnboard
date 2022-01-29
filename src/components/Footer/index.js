@@ -12,9 +12,23 @@ const Footer = () => (
       We stand with everyone fighting on the front lines
     </p>
     <div className="footer-icon-container">
-      <VscGithubAlt className="icon" />
-      <FiInstagram className="icon" />
-      <FaTwitter className="icon" />
+      <a
+        href="https://github.com/gaddamsairam/COVID-19-Dasnboard.git"
+        className="link-footer"
+        target="__break"
+      >
+        <VscGithubAlt className="icon" />
+      </a>
+      <a
+        href="https://www.instagram.com/"
+        className="link-footer"
+        target="__break"
+      >
+        <FiInstagram className="icon" />
+      </a>
+      <a href="https://twitter.com/" className="link-footer" target="__break">
+        <FaTwitter className="icon" />
+      </a>
     </div>
   </div>
 )

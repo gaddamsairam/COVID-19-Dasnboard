@@ -172,3 +172,14 @@
 .graphs-data {
   margin-top: 40px;
 }
+
+.image-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.state-image {
+  color: #ffffff;
+}
